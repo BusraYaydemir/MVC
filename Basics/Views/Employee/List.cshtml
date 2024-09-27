@@ -1,0 +1,12 @@
+@model List<Employee>
+
+
+@foreach(var employee in Model) 
+{
+    <div class="lead my-2">
+        <h6>@employee.Id</h6>
+        <p>@employee.FullName</p>
+        <p><strong>Age : </strong>@employee.Age</p>
+    </div>
+    <hr>
+}

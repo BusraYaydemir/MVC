@@ -1,0 +1,43 @@
+@model String[]
+
+<div class="display-6">
+    Model Example 2 View
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Surname</td>
+            <td>Phone</td>
+        </tr>
+        <tr>
+            <td>@Model[0]</td>
+            <td>Yaydemir</td>
+            <td>010203</td>
+        </tr>
+        <tr>
+            <td>@Model[1]</td>
+            <td>Yaydemir</td>
+            <td>010203</td>
+        </tr>
+        <tr>
+            <td>@Model[2]</td>
+            <td>Yaydemir</td>
+            <td>010203</td>
+        </tr>
+        <tr>
+            <td>@Model[3]</td>
+            <td>Yaydemir</td>
+            <td>010203</td>
+        </tr>
+    </table>
+</div>
+
+<div class="display-4">
+    Listelenen İsimler : 
+
+    @foreach(string item in Model) {
+        <p>@item</p>
+    }
+</div>
