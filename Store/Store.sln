@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{38AF2D98-A2C7-4E94-AA52-0F6C89C663FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApp", "Store\StoreApp\StoreApp.csproj", "{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA} = {38AF2D98-A2C7-4E94-AA52-0F6C89C663FC}
+	EndGlobalSection
+EndGlobal
