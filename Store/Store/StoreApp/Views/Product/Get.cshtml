@@ -1,0 +1,19 @@
+@* @{
+    Layout = "_Layout";
+} *@
+
+@* @{
+    Layout = null;
+} *@
+
+@model Product
+
+
+<h3>@Model.ProductName</h3>
+<p>@Model.Price</p>
+<a href="/Product">Products</a>
+
+
+@section Header{
+    This is a unique section for Header section. We used RenderSection("Header", false) for this.
+}

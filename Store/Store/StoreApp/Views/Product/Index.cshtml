@@ -1,0 +1,26 @@
+@* @{
+    Layout = "_Layout";
+} *@
+
+@model List<Product>
+
+
+@section Footer {
+    This is a unique section for Footer Section. We used RenderSection("Footer", false) for this.
+}
+
+
+@foreach (Product product in Model)
+{
+    @* Eğer tek tek elle ekleseydim aşağıdaki gibi olacaktı ama burada PARTIAL VIEW kullandık. *@
+    @* 
+    <div>
+        <h3>@product.ProductName</h3>
+        <p>@product.Price</p>
+        <p>
+            <a href="/Product/Get/@product.ProductId">Get Details</a>
+        </p>
+    </div> *@
+
+    <partial name="_ProductCard" model="product"/>
+}
