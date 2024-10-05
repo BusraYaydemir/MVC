@@ -1,0 +1,13 @@
+
+@* Tüm viewlarda kullanacağımız importları buraya yazıyoruz. Bu sayede bir modele ulaşmak istediğimizde StoreApp.Models.Product şeklinde yazmak yerine direk Product yazınca erişebiliyoruz. *@
+
+@using StoreApp
+@using Repositories
+
+@* Eğer asp-controller tarzı şeylerin aktif olmasını istiyorsan alttakini import et 
+Bu tarz ifadelere TAG HELPERS deniyor.*@
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+@using Entities.Models

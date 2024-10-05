@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Store", "Store", "{38AF2D98
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApp", "Store\StoreApp\StoreApp.csproj", "{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{9E1BAA24-E83D-4D3F-BF5F-DBA8207BA52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{D1B6E363-6D03-4CD8-91EB-C1679F5E3C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E1BAA24-E83D-4D3F-BF5F-DBA8207BA52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E1BAA24-E83D-4D3F-BF5F-DBA8207BA52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E1BAA24-E83D-4D3F-BF5F-DBA8207BA52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E1BAA24-E83D-4D3F-BF5F-DBA8207BA52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1B6E363-6D03-4CD8-91EB-C1679F5E3C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B6E363-6D03-4CD8-91EB-C1679F5E3C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B6E363-6D03-4CD8-91EB-C1679F5E3C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B6E363-6D03-4CD8-91EB-C1679F5E3C94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C8681E8E-32B6-4599-88D3-9BDF06FAA7AA} = {38AF2D98-A2C7-4E94-AA52-0F6C89C663FC}

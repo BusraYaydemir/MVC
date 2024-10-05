@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    @* CSS, FONT-AWESOME ve BOOTSTRAP'in css dosyalarının linkleri buraya eklenecek *@
+
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.css">
+
+
+</head>
+<body>
+    
+
+    <header>
+
+        @* Burada ek bir şey olabilir ama false dediğimiz için olmak zorunda değil *@
+        @RenderSection("Header", false)
+
+        @* Görünümün daha sade olması için partial viewlardan yararlanıldı. *@
+        <partial name="_Navbar">
+
+    </header>
+
+<div class="container my-3">
+     <main role="main" class="pb-3">
+
+        @* Burası sürekli değişecek olan kısım *@
+         @RenderBody()
+
+    </main>
+</div>
+   
+
+    <footer>
+
+        @* Burada ek bir şey olabilir ama false dediğimiz için olmak zorunda değil *@
+        @RenderSection("Footer", false)
+
+    </footer>
+
+
+@* JQERY ve BOOTSTRAP ve FONT-AWESOME'in JS linklerini buraya ekliyoruz. *@
+
+<script src="~/lib/jquery/jquery.min.js"></script>
+<script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js"></script>
+<script src="~/lib/font-awesome/js/all.min.js"></script>
+
+
+
+@* Burada ek js ler olabilir ama zorunlu değil *@
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

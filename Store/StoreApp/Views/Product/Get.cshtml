@@ -1,0 +1,27 @@
+@* @{
+    Layout = "_Layout";
+} *@
+
+@* @{
+    Layout = null;
+} *@
+
+@model Product
+
+
+<h3>@Model.ProductName</h3>
+<p>@Model.Price</p>
+<div class="btn-group">
+    <a class="btn btn-primary" href="/Product">
+    <i class="fa-solid fa-list mx-3"></i>
+    Products</a>
+    <a class="btn btn-outline-primary" href="/Home">
+    <i class="fa-solid fa-house mx-3"></i>
+    Home</a>
+</div>
+
+
+
+@section Header{
+    This is a unique section for Header section. We used RenderSection("Header", false) for this.
+}
